@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-@Repository
+//@Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
     Usuario findByLogin(String login);
