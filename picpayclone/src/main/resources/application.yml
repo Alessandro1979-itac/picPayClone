@@ -6,7 +6,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/picpay_clone
     username: postgres
-    password: Postgres2019!
+    password: amb292419
     initialization-mode: always
   api:
     versao: 1.0.0
