@@ -2,9 +2,7 @@ package br.com.dio.picpayclone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"br.com.dio.picpayclone.repository"})
 @SpringBootApplication
 public class PicpaycloneApplication {
 
